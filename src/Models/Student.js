@@ -26,6 +26,10 @@ const StudentSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    class: {
+      type: String,
+      required: true,
+    },
   },
   { timestamps: true }
 );
